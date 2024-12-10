@@ -15,7 +15,6 @@ namespace CharacterCountingBot.Controllers
 
         public TextMessageController(AppSettings appSettings, ITelegramBotClient telegramClient, IStorage memoryStorage)
         {
-            _appSettings = appSettings;
             _telegramClient = telegramClient;
             _memoryStorage = memoryStorage;
         }
